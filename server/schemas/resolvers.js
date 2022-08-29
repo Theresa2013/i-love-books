@@ -2,7 +2,8 @@
 const { User } = require('../models')
 // import AuthenticationError from apollo
 const { AuthenticationError } = require('apollo-server-express');
-const { saveBook } = require('../controllers/user-controller');
+
+const { signToken } = require('../utils/auth');
 
 const resolvers = {
     Query: {
@@ -16,7 +17,7 @@ const resolvers = {
         }
     },
     Mutation: {
-        login: async (parent, { email, password }) => {
+        loginUser: async (parent, { email, password }) => {
             const user = await User.findOne({ email });
 
             if (!user) {
