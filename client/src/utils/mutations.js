@@ -6,7 +6,6 @@ export const LOGIN_USER = gql`
             token
             user {
                 _id
-                username
             }
         }
     }
@@ -23,6 +22,12 @@ export const ADD_USER = gql`
         }
     }
 `;
-SAVE_BOOK will execute the saveBook mutation.
+export const SAVE_BOOK = gql`
+    mutation saveBook($input: savedBook!) {
+        saveBook(input: $input)
+    }
+`;
 
-REMOVE_BOOK will execute the removeBook mutation.
+// export const REMOVE_BOOK = gql`
+//     mutation removeBook
+//  `;
