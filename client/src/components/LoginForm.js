@@ -34,7 +34,7 @@ const LoginForm = () => {
       const { data } = await loginUser({ variables: { ...userFormData } });
 
       if (!data) {
-        throw new error('Something went wrong!');
+        throw new Error('Something went wrong!');
       }
 
       //const { token, user } = loggedUser;
