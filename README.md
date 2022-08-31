@@ -75,7 +75,7 @@ npm install bcrypt
 
 Deployed URL:
 
-GitHub Repo:
+GitHub Repo: https://github.com/Theresa2013/i-love-books.git
 
 ## Contributing
 
