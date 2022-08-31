@@ -39,7 +39,7 @@ const SignupForm = () => {
         throw new Error('Something went wrong!');
       }
 
-      Auth.loginUser(data.addUser.token, data.addUser.user);
+      Auth.login(data.addUser.token, data.addUser.user);
     } catch (err) {
       console.error(err);
       setShowAlert(true);

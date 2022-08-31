@@ -60,16 +60,19 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 
 ```md
 npm init
-...
+npm i apollo-server-express graphql
+npm i jsonwebtoken
+npm i @apolli/client
 npm install bcrypt
 ```
 
 ## Usage
 
-![Demo](./public/images/Screenshot.png)
-![Demo](./public/images/Screenshot1.png)
-![Demo](./public/images/Screenshot2.png)
-![Demo](./public/images/Screenshot3.png)
+![Demo](./client/public/images/Screenshot.png)
+![Demo](./client/public/images/Screenshot1.png)
+![Demo](./client/public/images/Screenshot2.png)
+![Demo](./client/public/images/Screenshot3.png)
+![Demo](./client/public/images/Screenshot4.png)
 
 Deployed URL:
 
