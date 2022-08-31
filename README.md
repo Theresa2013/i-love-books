@@ -68,7 +68,6 @@ npm install bcrypt
 
 ## Usage
 
-![Demo](./client/public/images/Screenshot.png)
 ![Demo](./client/public/images/Screenshot1.png)
 ![Demo](./client/public/images/Screenshot2.png)
 ![Demo](./client/public/images/Screenshot3.png)
